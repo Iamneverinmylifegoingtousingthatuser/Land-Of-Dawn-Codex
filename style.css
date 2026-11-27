@@ -1,0 +1,549 @@
+/* ========================================= */
+         /* MAIN THINGS SA MISMONG BODY */
+/* ========================================= */
+        
+        html, body {
+            padding:0px;
+            margin:0px;
+        }
+        
+        body {
+            min-height:100vh;
+            background-color:#100f3b;
+            background-attachment:fixed;
+        }
+        
+/* ========================================= */
+   /* THAT ONE THING SA TAAS LALAGYAN LOGO*/
+/* ========================================= */
+            
+        .interface {           
+            margin:0px;
+            padding:10px;
+            background-color:#0a0a1d;
+            width:100%;
+            box-sizing:border-box;
+        }
+        
+        .interface hr {
+            color:#fff155;
+            background-color:#fff155;
+            border:none;
+            border-top:2px solid #fff155;
+            margin:1px;
+        }
+        
+        .interface p {
+            color:#fff155;
+        }
+        
+        .interface h1 {
+            text-align:center;
+            color:#fff155;
+            margin-top:20px;
+            margin-bottom:20px;
+        }
+        
+/* ========================================= */
+                 /* TOOLBAR */
+/* ========================================= */
+        
+        .tooldiv {
+            margin:0px;
+            padding:0px;
+            width:100%;
+            height:50px;
+            gap:0px;
+            background-color:#0a0a1d;
+            display:flex;
+            overflow-x:auto;
+            box-sizing:border-box;
+            padding-bottom:8px;
+        }
+        
+        .tooldiv p {
+            color:#fff155;
+        }
+        
+        .notthis {
+            margin:0px;
+            white-space:nowrap;
+            padding:8px 16px;
+            border-radius:0px;
+            border-left:1px solid #fff15580;
+            border-top:0px solid black;
+            border-bottom:0px solid black;
+            border-right:1px solid #fff15580;
+            background-color:#0a0a1d;
+            color:#fff155;
+            font-family:'Inter', Arial, serif;
+            height:100%;
+            width:100px;
+            flex-shrink:0;
+        }
+        
+        .this {
+            margin:0px;
+            white-space:nowrap;
+            padding:8px 16px;
+            border-radius:0px;
+            border-left:1px solid #fff15580;
+            border-top:0px solid black;
+            border-bottom:0px solid black;
+            border-right:1px solid #fff15580;
+            background-color:#1f243d;
+            color:#fff155;
+            font-family:'Inter', Arial, serif;
+            height:100%;
+            width:100px;
+            flex-shrink:0;
+        }
+        
+/* ========================================= */
+         /* DIVS FOR HOME THINGIES */
+/* ========================================= */
+        
+        #homenews {
+            height:230px;
+            background-color:#1f243d;
+            display:flex;
+            overflow-x:auto;
+            box-sizing:border-box;
+            margin-top:0px;
+            align-items:center;
+        }
+        
+        #homenews p {
+            color:#fff4d5;
+            margin:5px;
+        }
+        
+        #homenews img {
+            height:150px;
+        }
+        
+        .news {
+            height:210px;
+            background-color:#100f3b;
+            margin:10px;
+            border:2px solid #fff155;
+        }
+        
+        .news p {
+            font-size:14px;
+            padding-left:3px;
+            font-weight:bold;
+        }
+        
+        .news h3 {
+            font-size:8px;
+            padding-left:6px;
+            color:#8e8153;
+            font-weight:normal;
+        }
+        
+        h2 {
+            font-size:40px;
+            padding-left:15px;
+            color:#fff155;
+        }
+        
+/* ========================================= */
+               /* TABLE THING */
+/* ========================================= */
+        
+        .table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    .hero-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #1c2c49;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .hero-table thead {
+      background-color: #263959;
+      color: #8fa3c4;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-table th {
+      padding: 14px 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .hero-table th.active-sort {
+      color: #ffffff;
+    }
+
+    .hero-table td {
+      padding: 16px;
+      border-bottom: 1px solid #283b5c;
+    }
+
+    .hero-table tbody tr:hover {
+      background-color: #233657;
+    }
+
+    .hero-table th.left-align,
+    .hero-table td.left-align {
+      text-align: left;
+    }
+
+    .rank-col {
+      font-weight: bold;
+      width: 80px;
+    }
+
+    .hero-name {
+      font-weight: 500;
+    }
+
+    .counter-list {
+      color: #cbd5e1;
+      font-size: 13px;
+    }
+      
+    td {
+        color:#ffffff;
+    }
+    
+/* ========================================= */
+                /* TIERLIST */
+/* ========================================= */
+
+        .tier-list {
+            width: 100%;
+            background-color: #0a0a1d;
+            border: 1px solid #fff15580;
+            box-sizing: border-box;
+            font-family: 'Inter', Arial, serif;
+        }
+
+        .tier-row {
+            display: flex;
+            border-bottom: 1px solid #fff15580;
+            min-height: 70px;
+        }
+
+        .tier-row:last-child {
+            border-bottom: none;
+        }
+
+        .tier-label {
+            width: 90px;
+            flex-shrink: 0;
+            background-color: #1f243d;
+            color: #fff155;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Rajdhani', Arial, serif;
+            font-size: 24px;
+            font-weight: bold;
+            border-right: 1px solid #fff15580;
+        }
+
+        .tier-s-plus { border-left: 4px solid #ff6b6b; color: #ff6b6b; }
+        .tier-s      { border-left: 4px solid #fff155; color: #fff155; }
+        .tier-a      { border-left: 4px solid #fff4d5; color: #fff4d5; }
+        .tier-b      { border-left: 4px solid #8fa3c4; color: #8fa3c4; }
+
+        .tier-items {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 18px;
+            flex: 1;
+        }
+
+        .hero-tag {
+            background-color: #100f3b;
+            color: #fff4d5;
+            border: 1px solid #fff15580;
+            padding: 8px 14px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .hero-tag:hover {
+            background-color: #1f243d;
+            color: #fff155;
+            border-color: #fff155;
+        }
+        
+/* ========================================= */
+/* HERO SELECTION */
+/* ========================================= */
+
+.hero-container {
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:10px;
+}
+
+/* HERO CARD */
+
+.hero-card {
+    width:100%;
+    min-width:0;
+    background-color:#100f3b;
+    border:2px solid #fff155;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+
+/* IMAGE CONTAINER */
+
+.hero-image {
+    width:100%;
+    aspect-ratio:3 / 4;
+    overflow:hidden;
+}
+
+/* AUTOMATIC IMAGE CROPPING */
+
+.hero-image img {
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position:center;
+}
+
+/* HERO NAME */
+
+.hero-name {
+    color:#fff155;
+    background-color:#100f3b;
+    text-align:center;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px 2px;
+    margin:0;
+}
+
+/* ========================================= */
+            /* INFORMATION PAGE */
+/* ========================================= */
+
+.info-container {
+    width:100%;
+    padding:15px;
+    box-sizing:border-box;
+    background-color:#100f3b;
+}
+
+/* SECTION TITLES */
+
+.info-title {
+    color:#fff155;
+    font-size:25px;
+    text-align:left;
+    padding:0;
+    margin:25px 0 15px 0;
+    border-bottom:2px solid #fff155;
+    padding-bottom:8px;
+}
+
+/* GENERAL INFORMATION BOX */
+
+.info-box {
+    background-color:#0a0a1d;
+    border:1px solid #fff155;
+    padding:15px;
+    margin-bottom:12px;
+    box-sizing:border-box;
+}
+
+.info-box h3 {
+    color:#fff155;
+    font-size:17px;
+    margin:0 0 10px 0;
+}
+
+.info-box p {
+    color:#fff4d5;
+    font-size:14px;
+    line-height:1.6;
+    margin:0;
+}
+
+/* HERO ROLES */
+
+.role-box {
+    background-color:#1f243d;
+    border-left:4px solid #fff155;
+    padding:12px;
+    margin-bottom:10px;
+    box-sizing:border-box;
+}
+
+.role-box h3 {
+    color:#fff155;
+    font-size:16px;
+    margin:0 0 5px 0;
+}
+
+.role-box p {
+    color:#fff4d5;
+    font-size:13px;
+    margin:0;
+    line-height:1.5;
+}
+
+/* FOOTER */
+
+.info-footer {
+    text-align:center;
+    margin-top:30px;
+    padding:15px 5px;
+    background-color:#0a0a1d;
+}
+
+.info-footer hr {
+    border:0;
+    border-top:2px solid #fff155;
+}
+
+.info-footer p {
+    color:#fff155;
+    font-size:12px;
+    margin:8px 0;
+}
+
+/* ========================================= */
+/* ABOUT PAGE */
+/* ========================================= */
+
+.about-container {
+    width:100%;
+    padding:15px;
+    box-sizing:border-box;
+    background-color:#100f3b;
+}
+
+.about-header {
+    background-color:#0a0a1d;
+    border:2px solid #fff155;
+    padding:25px 10px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.about-header h1 {
+    color:#fff155;
+    font-size:30px;
+    margin:0;
+}
+
+.about-header p {
+    color:#fff4d5;
+    font-size:11px;
+    letter-spacing:2px;
+    margin:8px 0 0 0;
+}
+
+.about-box {
+    background-color:#0a0a1d;
+    border:1px solid #fff155;
+    padding:15px;
+    margin-bottom:15px;
+}
+
+.about-box h2 {
+    color:#fff155;
+    font-size:19px;
+    padding:0;
+    margin:0 0 12px 0;
+}
+
+.about-box p {
+    color:#fff4d5;
+    font-size:14px;
+    line-height:1.7;
+    margin:0;
+}
+
+.about-section-title {
+    color:#fff155;
+    font-size:22px;
+    padding:0;
+    margin:25px 0 15px 0;
+    border-bottom:2px solid #fff155;
+    padding-bottom:8px;
+}
+
+.about-feature {
+    background-color:#1f243d;
+    border-left:4px solid #fff155;
+    padding:13px;
+    margin-bottom:10px;
+}
+
+.about-feature h3 {
+    color:#fff155;
+    font-size:15px;
+    margin:0 0 7px 0;
+}
+
+.about-feature p {
+    color:#fff4d5;
+    font-size:13px;
+    line-height:1.5;
+    margin:0;
+}
+
+.about-disclaimer {
+    background-color:#1f243d;
+    border:1px dashed #fff155;
+    padding:13px;
+    margin-top:20px;
+}
+
+.about-disclaimer h3 {
+    color:#fff155;
+    font-size:15px;
+    margin:0 0 8px 0;
+}
+
+.about-disclaimer p {
+    color:#fff4d5;
+    font-size:12px;
+    line-height:1.6;
+    margin:0;
+}
+
+/* ========================================= */
+          /* GENERAL FONT THINGIES */
+/* ========================================= */
+        
+        h1 {
+            font-family:'Rajdhani', Arial, serif;
+            margin:0px;
+        }
+        
+        h2 {
+            font-family:'Rajdhani', Arial, serif;
+            margin:0px;
+        }
+        
+        p, h3, h4 {
+            font-family:'Inter', Arial, serif;
+        }
+        
+        a {
+            text-decoration:none;
+        }
